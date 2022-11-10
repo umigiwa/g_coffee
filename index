@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ja">
+<head prefix="og:http://ogp.me/ns#">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G COFFEE</title>
+<meta name="Keywords" content="#">
+<meta name="description" content="検索結果の表示時に説明文として表示される文章。ページ毎に個別に書き分ける。">
+<meta name="robots" content="noindex,nofollow"><!--公開直前にこの行は消去する。詳しくは「クローラー対策」を検索-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+<link href="css/reset_ver1.1.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/slick.css" rel="stylesheet">
+<link href="css/slick-theme.css" rel="stylesheet">
+<!--などなどのCSS。読み込ませ順序に注意-->
+<link rel="icon" href="images/favicon.ico">
+
+    <meta property="og:title" content="snsページのタイトル">
+    <meta property="og:description" content="snsページの説明文">
+    <meta property="og:url" content="snsページのURL:絶対パス">
+    <meta property="og:image" content="サムネイル画像のURL">
+    <meta property="og:type" content="ページの種類 website blog article">
+    <meta property="og:site_name" content="サイトの名前">
+
+</head>
+
+<body>
+<div class="wrapper" id="top">
+  <header>
+    <a class="logo" href="#top"><h1><img src="images/logo_bk.svg" alt="G COFFEE"></h1></a>
+    <nav>
+      <ul>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#concept">CONCEPT</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#access">ACCESS</a></li>
+      </ul>
+    </nav>
+    <a class="sns_icon" href="https://www.instagram.com/" target=”_blank”><img src="images/insta_bkicon.svg" alt="Instagram"></a>
+  </header>  
+
+  <main>
+    <div class="kv">
+      <ul class="kv_slider" id="js_slider_kv">
+        <li><img src="images/mainV01.jpg" alt="店内の様子"></li>
+        <li><img src="images/mainV02.jpg" alt="名物クロワッサン"></li>
+        <li><img src="images/mainV03.jpeg" alt="サクサクのデニッシュ"></li>
+        <li><img src="images/mainV04.jpg" alt="店舗外観"></li>
+        <li><img src="images/mainV05.jpg" alt="入り口のドア"></li>
+      </ul><!-- .kv_slider #js_slider_kv -->
+    </div><!-- .kv -->
+
+    <section class="menu mb300" id="menu">
+      <h2>MENU</h2>
+        <ul class="menu_list" id="slider">
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu01.jpg" alt="クロワッサン">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>food</p>
+                <p>クロワッサン</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu02.jpg" alt="ブルーベリーデニッシュ">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>food</p>
+                <p>ブルーベリーデニッシュ</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu03.jpg" alt="クロワッサン・ショコ・ナッツ">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>food</p>
+                <p>クロワッサン・ショコ・ナッツ</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu04.jpg" alt="シナモンロール">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>food</p>
+                <p>シナモンロール</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu05.jpg" alt="アイスコーヒー">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>drink</p>
+                <p>アイスコーヒー</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu06.jpg" alt="カプチーノ">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>drink</p>
+                <p>カプチーノ</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content slide-item -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu07.jpg" alt="アイスティー">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>drink</p>
+                <p>アイスティー</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content -->
+          </li>
+          <li>
+            <div class="content slide-item">
+              <div class="menu_img">
+                <img src="images/menu08.jpg" alt="ホットティー">
+              </div><!-- .menu_img -->
+              <div class="menu_text">
+                <p>drink</p>
+                <p>ホットティー</p>
+                <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曾川の岸であり</p>
+              </div><!-- .menu_text -->
+            </div><!-- .content -->
+          </li>
+        </ul><!-- .menu_list #slider -->
+        <ul class="menu_thumbs" id="thumbnail-list">
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu01.jpg" alt="クロワッサン">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu02.jpg" alt="ブルーベリーデニッシュ">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu03.jpg" alt="クロワッサン・ショコ・ナッツ">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu04.jpg" alt="シナモンロール">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu05.jpg" alt="アイスコーヒー">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu06.jpg" alt="カプチーノ">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu07.jpg" alt="アイスティー">
+            </div><!-- .thumbnail-item -->
+          </li>
+          <li>
+            <div class="thumbnail-item">
+              <img src="images/menu08.jpg" alt="ホットティー">
+            </div><!-- .thumbnail-item -->
+          </li>
+        </ul><!-- .menu_thumbs #thumbnail-list -->
+
+    </section><!-- .menu mb300 #menu -->
+
+    <section class="concept mb300" id="concept">
+      <h2>CONCEPT</h2>
+      <div class="ingredient">
+        <div class="ingredient_left">
+          <div class="field">
+            <img src="images/concept01.jpg" alt="小麦畑">
+          </div><!-- .field -->
+          <div class="butter">
+            <img src="images/concept02.jpg" alt="バター">
+          </div><!-- .butter -->
+        </div><!-- .ingredient_left -->
+        <div class="ingredient_right concept_text">
+          <h3>こだわりの素材</h3>
+          <p>兵庫県産の小麦粉を100％使用。バターはオーナーの地元近くにある、神戸六甲山牧場のものを使いました。</p>
+          <p>木曾路はすべて山の中である。あるところは岨づたいに行く崖の道であり</p>
+          <p>あるところは数十間の深さに臨む木曾川の岸であり、あるところは山の尾をめぐる谷の入り口である。</p>
+        </div><!-- .ingredient_right concept_text -->
+      </div><!-- .ingredient -->
+      
+      <div class="space">
+        <div class="space_right">
+          <div class="light">
+            <img src="images/concept03.jpg" alt="店内の灯り">
+          </div><!-- .light -->
+          <div class="flour">
+            <img src="images/concept04.jpg" alt="オレンジの花">
+          </div><!-- .flour -->
+        </div><!-- .space_right -->
+        <div class="space_left">
+          <div class="concept_text">
+          <h3>穏やかな時間を</h3>
+          <p>一筋の街道はこの深い森林地帯を貫いていた。東ざかいの桜沢から、西の十曲峠まで、木曾十一宿はこの街道に添うて、二十二里余にわたる長い谿谷の間に散在していた。</p>
+          </div><!-- .concept_text -->
+          <div class="curtain">
+            <img src="images/concept05.jpg" alt="カーテン越しのコーヒー">
+          </div><!-- .curtain -->
+        </div><!-- .space_left -->
+      </div><!-- .space -->
+    </section><!-- .concept mb300 #concept -->
+
+    <section class="gallery mb300" id="gallery">
+      <div class="gallery_headline">
+        <h2>GALLERY</h2>
+        <a href="https://www.instagram.com/" target=”_blank”>Instagram</a>  
+      </div><!-- .gallery_headline -->
+      <ul class="slider" id="js-slider">
+        <li><img src="images/gallery01.jpg" alt="カプチーノ"></li>
+        <li><img src="images/gallery02.jpg" alt="電球"></li>
+        <li><img src="images/gallery03.jpg" alt="パン"></li>
+        <li><img src="images/gallery04.jpg" alt="パン"></li>
+        <li><img src="images/gallery05.jpg" alt="窓際の花"></li>
+        <li><img src="images/gallery06.jpg" alt="パンと小麦"></li>
+        <li><img src="images/gallery07.jpg" alt="ホットコーヒー"></li>
+        <li><img src="images/gallery08.jpg" alt="コンクリートの床"></li>
+      </ul><!-- .slider #js-slider -->
+    </section><!-- .gallery mb300 #gallery -->
+    
+    <section class="access" id="access">
+      <h2>ACCESS</h2>
+      <div class="access_flex">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13122.36457637468!2d135.1799015832816!3d34.69026703699266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60008fd976cb979f%3A0x91c19def2b5dbf9b!2z56We5oi45pen5aSW5Zu95Lq65bGF55WZ5Zyw!5e0!3m2!1sja!2sjp!4v1667370676233!5m2!1sja!2sjp" width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="access_info">
+          <p>G COFFEE</p>
+          <p>〒650-0034<br>
+            兵庫県神戸市中央区京町</p>
+          <p>open　9:00-20:00</p>
+        </div><!-- .access_info -->
+      </div><!-- .access_flex -->
+    </section><!-- .access #access -->
+
+  </main>
+
+  <footer>
+    <p class="copyright">
+      <small>&copy;2022 umigiwa</small>
+    </p><!-- .copyright -->
+  </footer>
+  <div class="bk"></div>
+</div><!-- .wrapper -->
+
+<script src="js/jQuery_3.6.1.mini.js"></script>
+<script src="js/slick.min.js"></script>
+<script>
+$(function(){
+  // ********* smooth scroll *********
+  $('a[href^="#"]').click(function() {
+    let speed = 400;
+    let type = 'swing';
+    let href= $(this).attr("href");
+    let target = $(href == "#index" ? 'html' : href);
+    let position = target.offset().top;
+    $('body,html').animate({scrollTop:position}, speed, type);
+    return false
+  });
+  });
+
+  // ********* kv slider *********
+  $(function () {
+  var $kv_slider = $('#js_slider_kv');
+  $kv_slider.slick({
+    arrows: false, 
+    dots: false,
+    fade: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed: 1500,
+    slidesToShow: 1,
+  });
+  });
+
+  // ********* menu slider *********
+  $(function(){
+  var slider = "#slider";
+  var thumbnailItem = "#thumbnail-list .thumbnail-item";
+  $(thumbnailItem).each(function(){
+  var index = $(thumbnailItem).index(this);
+  $(this).attr("data-index",index);
+  });
+  $(slider).on('init',function(slick){
+  var index = $(".slide-item.slick-slide.slick-current").attr("data-slick-index");
+  $(thumbnailItem+'[data-index="'+index+'"]').addClass("thumbnail-current");
+  });
+  $(slider).slick({
+    arrows: true
+  });
+  $(thumbnailItem).on('click',function(){
+    var index = $(this).attr("data-index");
+    $(slider).slick("slickGoTo",index,false)
+  });
+  });
+  
+  
+  // *********gallery slider*********
+  $(function () {
+  $('#js-slider').slick({
+    arrows: false, 
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 10000,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    variableWidth: true,
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        pauseOnDotsHover: false,
+        swipe: false,
+        swipeToSlide: false,
+        touchMove: false
+  });
+});
+</script>
+</body>
+</html>
